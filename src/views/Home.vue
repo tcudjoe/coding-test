@@ -1,14 +1,14 @@
 <template>
   <div class="home">
     <Navbar/>
-    <Project/>
+    <Projects/>
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator'
-import Navbar from '@/components/Navbar.vue' // @ is an alias to /src
-import Projects from '@/components/Projects.vue' // @ is an alias to
+import Navbar from '../components/Navbar.vue' // @ is an alias to /src
+import Projects from '../components/Projects.vue' // @ is an alias to
 
 @Component({
   components: {
@@ -16,5 +16,6 @@ import Projects from '@/components/Projects.vue' // @ is an alias to
     Projects
   }
 })
+
 export default class Home extends Vue {}
 </script>

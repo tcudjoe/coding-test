@@ -2,18 +2,16 @@
     <div class="sidenav">
         <h1>Categories</h1>
         <a href="">
-            Tech
-        </a>
-        <a href="">
-            <h5>Charity</h5>
-        </a
-        ><a href="">
-            DIY
+            <p>Tech</p>
+        </a><a href="">
+            <p>Charity</p>
+        </a><a href="">
+            <p>DIY</p>
         </a>
         <br>
         <h1>Availability</h1>
         <a href="">
-            Show funded
+            <p>Show funded</p>
         </a>
     </div>
 </template>
@@ -32,16 +30,16 @@
     }
 
     h1 {
-        color: white;
+        color: rgb(194, 194, 194);
     }
 
     a {
-        padding: 3px 3px 3px 16px;
+        /* padding: px; */
         text-decoration: none;
         font-size: 25px;
         color: #818181;
         display: block;
-        text-decoration: none;
+        transition: 300ms;
     }
 
     a:hover {
@@ -52,5 +50,4 @@
         .sidenav {padding-top: 15px;}
         .sidenav a {font-size: 18px;}
     }
-
 </style>\n
